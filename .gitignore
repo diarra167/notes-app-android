@@ -1,15 +1,44 @@
+# --- Fichiers d'environnement et secrets ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- IDEs et Éditeurs (IntelliJ, WebStorm, Android Studio) ---
+.idea/
 *.iml
 .gradle
 /local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
 /build
 /captures
 .externalNativeBuild
 .cxx
-local.properties
+
+# --- IDEs (VS Code) ---
+.vscode/
+*.code-workspace
+
+# --- Systèmes d'exploitation ---
+.DS_Store
+Thumbs.db
+
+# --- Dépendances Node.js ---
+node_modules/
+/jspm_packages
+/web_modules
+
+# --- Logs et fichiers temporaires ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pid
+*.pid
+*.seed
+*.pid.lock
+
+# --- Couverture de code et builds ---
+coverage/
+dist/
+.next/
+out/
