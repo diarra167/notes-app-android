@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:padding="16dp"
+    android:minHeight="72dp">
+
+    <TextView
+        android:id="@+id/tv_note_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/img_favorite"
+        android:text="Titre"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/tv_note_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_note_title"
+        android:layout_toStartOf="@+id/img_favorite"
+        android:text="01 Juin 2026"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:layout_marginTop="4dp"/>
+
+    <ImageView
+        android:id="@+id/img_favorite"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_star"
+        android:visibility="gone"/>
+
+</RelativeLayout>
