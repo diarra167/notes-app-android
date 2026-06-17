@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+    namespace 'com.example.notesapp'
     compileSdk 34
     defaultConfig {
         applicationId "com.example.notesapp"
